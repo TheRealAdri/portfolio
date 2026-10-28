@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Adrián Sánchez Yrure</title>
+</head>
+<body>
+
+  <!-- Enlace de salto accesible como primer elemento del body -->
+  <a href="#contenido">Saltar al contenido</a>
+
+  <header>
+    <p>Adrián Sánchez Yrure</p>
+    <p>Estudiante de doble grado de matemáticas aplicada a la ciencia del dato e ingeniería informática</p>
+    <nav>
+      <ul>
+        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="proyectos.html">Proyectos</a></p></li>
+        <li><p><a href="sobre-mi.html">Sobre mí</a></p></li>
+        <li><p><a href="contacto.html">Contacto</a></p></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+    <h1>Contacto</h1>
+
+    <form method="post" action="#">
+
+      <!-- Grupo 1: Tus datos -->
+      <fieldset>
+        <legend>Tus datos</legend>
+
+        <p>
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" required minlength="2" maxlength="60" autocomplete="name">
+        </p>
+
+        <p>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </p>
+
+        <p>
+          <label for="empresa">Empresa u organización (opcional):</label>
+          <input type="text" id="empresa" name="empresa" autocomplete="organization">
+        </p>
+      </fieldset>
+
+      <!-- Grupo 2: Tu proyecto -->
+      <fieldset>
+        <legend>Tu proyecto</legend>
+
+        <p>
+          <label for="tipo-proyecto">Tipo de proyecto:</label>
+          <select id="tipo-proyecto" name="tipo_proyecto" required>
+            <option value="">Elige un tipo</option>
+            <optgroup label="Desarrollo Web">
+              <option value="web-corporativa">Web corporativa</option>
+              <option value="landing-page">Landing page</option>
+              <option value="dashboard-analitico">Dashboard analítico</option>
+            </optgroup>
+            <optgroup label="Desarrollo de Apps">
+              <option value="app-movil">Aplicación móvil</option>
+              <option value="app-escritorio">Aplicación de escritorio</option>
+              <option value="app-iot">Panel de control IoT</option>
+            </optgroup>
+            <optgroup label="Otro">
+              <option value="consultoria-datos">Consultoría en Ciencia de Datos</option>
+              <option value="modelo-ia">Modelado de Inteligencia Artificial</option>
+              <option value="otro-servicio">Otro tipo de proyecto</option>
+            </optgroup>
+          </select>
+        </p>
+
+        <fieldset>
+          <legend>Modalidad de trabajo:</legend>
+          <p>
+            <input type="radio" id="modalidad-remoto" name="modalidad" value="remoto" checked>
+            <label for="modalidad-remoto">Remoto</label>
+
+            <input type="radio" id="modalidad-presencial" name="modalidad" value="presencial">
+            <label for="modalidad-presencial">Presencial</label>
+
+            <input type="radio" id="modalidad-hibrido" name="modalidad" value="hibrido">
+            <label for="modalidad-hibrido">Híbrido</label>
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Servicios requeridos:</legend>
+          <p>
+            <input type="checkbox" id="servicio-diseno" name="servicios" value="diseno">
+            <label for="servicio-diseno">Diseño</label>
+
+            <input type="checkbox" id="servicio-frontend" name="servicios" value="frontend">
+            <label for="servicio-frontend">Front-end</label>
+
+            <input type="checkbox" id="servicio-backend" name="servicios" value="backend">
+            <label for="servicio-backend">Back-end</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <label for="fecha-inicio">Fecha estimada de inicio:</label>
+          <!-- Ajusta min si tu fecha límite de entrega es otra -->
+          <input type="date" id="fecha-inicio" name="fecha_inicio" min="2026-10-14" required>
+        </p>
+
+        <p>
+          <label for="mensaje">Mensaje o descripción del proyecto:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" maxlength="500" required aria-describedby="ayuda-mensaje"></textarea>
+          <span id="ayuda-mensaje">Cuéntame qué necesitas y para cuándo (máximo 500 caracteres).</span>
+        </p>
+      </fieldset>
+
+      <!-- Grupo 3: Cómo te respondo -->
+      <fieldset>
+        <legend>Cómo te respondo</legend>
+
+        <fieldset>
+          <legend>Preferencia de respuesta:</legend>
+          <p>
+            <input type="radio" id="respuesta-email" name="respuesta" value="email" checked>
+            <label for="respuesta-email">Email</label>
+
+            <input type="radio" id="respuesta-telefono" name="respuesta" value="telefono">
+            <label for="respuesta-telefono">Teléfono</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <label for="telefono">Teléfono (opcional):</label>
+          <input type="tel" id="telefono" name="telefono" pattern="[6-9][0-9]{8}" title="Debe contener exactamente 9 cifras empezando por 6, 7, 8 o 9 (sin espacios ni prefijos)." autocomplete="tel">
+        </p>
+
+        <p>
+          <input type="checkbox" id="privacidad" name="privacidad" required>
+          <label for="privacidad">Acepto la política de privacidad</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Enviar mensaje</button>
+        <button type="reset">Borrar</button>
+      </p>
+
+    </form>
+  </main>
+
+  <footer>
+    <address>
+      Contacto: <a href="mailto:adrisanyrure@gmail.com">adrisanyrure@gmail.com</a>
+    </address>
+    <ul>
+      <li><p><a href="https://github.com/TheRealAdri" target="_blank" rel="noopener">GitHub</a></p></li>
+      <li><p><a href="https://www.linkedin.com/in/adri%C3%A1n-s%C3%A1nchez-yrure-b88717252/" target="_blank" rel="noopener">LinkedIn</a></p></li>
+    </ul>
+    <p><small>&copy; 2026 Adrián Sánchez Yrure. Todos los derechos reservados.</small></p>
+  </footer>
+
+</body>
+</html>
