@@ -1,0 +1,16 @@
+WEBVTT - Subtítulos descriptivos
+
+00:00:00.000 --> 00:00:05.000
+Introducción a las redes neuronales artificiales y el aprendizaje profundo.
+
+00:00:05.000 --> 00:00:12.000
+Estructura básica de capas: neuronas de entrada, capas ocultas y salidas predictivas.
+
+00:00:12.000 --> 00:00:18.000
+Conexiones ponderadas entre neuronas mediante pesos sinápticos y sesgos analíticos.
+
+00:00:18.000 --> 00:00:25.000
+Cálculo de funciones de activación no lineales para resolver clasificaciones complejas.
+
+00:00:25.000 --> 00:00:32.000
+Optimización matemática del error mediante el algoritmo de retropropagación.

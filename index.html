@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio de Adrián Sánchez Yrure</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio | Adrián Sánchez Yrure</title>
+  <meta name="description" content="Portfolio de Adrián Sánchez Yrure. Doble grado en matemáticas e informática con proyectos en ciencia de datos, machine learning y desarrollo web.">
+  <link rel="canonical" href="https://therealadri.github.io/portfolio/">
+  <meta property="og:title" content="Inicio | Adrián Sánchez Yrure">
+  <meta property="og:description" content="Portfolio de Adrián Sánchez Yrure. Doble grado en matemáticas e informática con proyectos en ciencia de datos, machine learning y desarrollo web.">
+  <meta property="og:image" content="https://therealadri.github.io/portfolio/img/og-portfolio.png">
+  <meta property="og:url" content="https://therealadri.github.io/portfolio/">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
 </head>
 <body>
   <a href="#contenido">Saltar al contenido</a>
 
   <header>
+    <p>
+      <a href="index.html">
+        <img src="img/logo.svg" alt="Logotipo de Adrián Sánchez Yrure" width="240" height="48">
+      </a>
+    </p>
     <h1>Adrián Sánchez Yrure</h1>
     <p>Estudiante de doble grado de matemáticas aplicada a la ciencia del dato e ingeniería informática</p>
     <nav>
       <ul>
-        <li><p><a href="index.html">Inicio</a></p></li>
+        <li><p><a href="index.html" aria-current="page">Inicio</a></p></li>
         <li><p><a href="proyectos.html">Proyectos</a></p></li>
         <li><p><a href="sobre-mi.html">Sobre mí</a></p></li>
         <li><p><a href="contacto.html">Contacto</a></p></li>
@@ -26,7 +40,10 @@
     <section id="sobre-mi">
       <h2>Sobre mí</h2>
       <figure>
-        <img src="img/images.png" alt="Fotografía de perfil de Adrián Sánchez Yrure" width="120">
+        <picture>
+          <source srcset="img/images.webp" type="image/webp">
+          <img src="img/images.png" alt="Fotografía de perfil de Adrián Sánchez Yrure" width="240" height="240">
+        </picture>
         <figcaption>Adrián Sánchez Yrure - Análisis de datos e ingeniería de software</figcaption>
       </figure>
       <p>
@@ -105,7 +122,7 @@
       <article>
         <h3>Detección de tráfico malicioso en IoT con Deep Learning (TFG)</h3>
         <figure>
-          <img src="img/proyecto-tfg.png" alt="Captura del modelo de detección de tráfico malicioso en IoT" width="400">
+          <img src="img/proyecto-tfg.png" alt="Captura del modelo de detección de tráfico malicioso en IoT" width="800" height="445" loading="lazy">
           <figcaption>Algoritmo comparativo de cinco familias de aprendizaje profundo</figcaption>
         </figure>
         <p>Diseño y evaluación de modelos de Deep Learning para identificar amenazas en redes IoT en tiempo récord.</p>
@@ -115,7 +132,7 @@
       <article>
         <h3>EcoMap</h3>
         <figure>
-          <img src="img/proyecto-ecomap.png" alt="Captura de la plataforma EcoMap para inversión en renovables" width="400">
+          <img src="img/proyecto-ecomap.png" alt="Captura de la plataforma EcoMap para inversión en renovables" width="800" height="446" loading="lazy">
           <figcaption>Optimización geoespacial de retorno de inversión energética</figcaption>
         </figure>
         <p>Modelo de alta granularidad que calcula el tipo de energía óptima y el retorno de inversión para particulares.</p>
@@ -125,7 +142,7 @@
       <article>
         <h3>NODARA Hospital</h3>
         <figure>
-          <img src="img/proyecto-nodara.png" alt="Captura del panel de control de NODARA Hospital" width="400">
+          <img src="img/proyecto-nodara.png" alt="Captura del panel de control de NODARA Hospital" width="800" height="450" loading="lazy">
           <figcaption>Sistema IoT en tiempo real para centros hospitalarios</figcaption>
         </figure>
         <p>Arquitectura MVC e IoT en tiempo real para monitorización de sensores clínicos críticos y paneles por roles.</p>
@@ -136,20 +153,43 @@
     <aside id="disponibilidad">
       <h2>Disponibilidad</h2>
       <p>Disponible para prácticas e incorporación profesional desde <time datetime="2026-06-01">junio de 2026</time>.</p>
-      <p>Última actualización: <time datetime="2026-10-13">13 de octubre de 2026</time>.</p>
+      <p>Última actualización: <time datetime="2026-10-28">28 de octubre de 2026</time>.</p>
     </aside>
   </main>
 
   <footer>
     <address>
-      Contacto: <a href="mailto:adrisanyrure@gmail.com">adrisanyrure@gmail.com</a>
+      Contacto: <a href="mailto:adrisanyrure@gmail.com">
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z"></path>
+          <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z"></path>
+        </svg>
+        adrisanyrure@gmail.com
+      </a>
     </address>
     <ul>
-      <li><p><a href="https://github.com/TheRealAdri" target="_blank" rel="noopener">GitHub</a></p></li>
-      <li><p><a href="https://www.linkedin.com/in/adri%C3%A1n-s%C3%A1nchez-yrure-b88717252/" target="_blank" rel="noopener">LinkedIn</a></p></li>
+      <li>
+        <p>
+          <a href="https://github.com/TheRealAdri" target="_blank" rel="noopener">
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"></path>
+            </svg>
+            GitHub
+          </a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a href="https://www.linkedin.com/in/adri%C3%A1n-s%C3%A1nchez-yrure-b88717252/" target="_blank" rel="noopener">
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path>
+            </svg>
+            LinkedIn
+          </a>
+        </p>
+      </li>
     </ul>
     <p><small>&copy; 2026 Adrián Sánchez Yrure. Todos los derechos reservados.</small></p>
   </footer>
-
 </body>
 </html>

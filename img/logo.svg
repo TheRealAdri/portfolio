@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" width="240" height="48" role="img" aria-label="Logotipo de Adrián Sánchez Yrure">
+  <rect x="2" y="4" width="40" height="40" rx="8" fill="#0D47A1"/>
+  <text x="22" y="25" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="central">ASY</text>
+  <text x="52" y="21" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#1A202C">Adrián Sánchez</text>
+  <text x="52" y="37" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#4A5568">Data &amp; Software Engineer</text>
+</svg>
