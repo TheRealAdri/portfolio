@@ -20,7 +20,7 @@ El portfolio está desarrollado con HTML5 nativo y accesible, sin CSS propio ni 
 
 ## Fuentes de Recursos
 
-- **Vídeo Incrustado:** "But what is a neural network? | Chapter 1, Deep learning" por 3Blue1Brown (YouTube: [https://www.youtube.com/watch?v=aircAruvnKk](https://www.youtube.com/watch?v=aircAruvnKk)).
+- **Vídeo Incrustado:** "[1hr Talk] Intro to Large Language Models" por Andrej Karpathy (YouTube: [https://www.youtube.com/watch?v=zjkBMFhNj_g](https://www.youtube.com/watch?v=zjkBMFhNj_g)).
 - **Iconos:** SVGs en línea de Simple Icons / Heroicons con `fill="currentColor"` y `aria-hidden="true"`.
 - **Logotipo:** Dibujado en formato SVG (`img/logo.svg`).
 - **Tipografía:** Nunito de Google Fonts con `display=swap`.
